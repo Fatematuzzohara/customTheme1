@@ -4,8 +4,39 @@ body {
 }
 
 .img{
-  width: 50%;
+  width: 60%;
+  border-radius: 10%;
   height: 50%;
+}
+.li{
+  margin: 10px;
+}
+.icon{
+  margin-right:  10px;
+  border-radius: 100%;
+  background-color: #008374;
+  color:white;
+  display: inline-block;
+
+}
+.icon-price{
+  margin-right:  10px;
+
+ color: #00796B;
+ 
+  display: inline-block;
+
+}
+.team-img{
+  border-radius: 10%;
+  width: 60%;
+  height: 60%;
+}
+
+.column{
+
+  border-color: #008374;
+  size: 10%;
 }
 .topbar{
   background-color: #00796B;
@@ -14,19 +45,49 @@ body {
   height: .5%;
  }
  .button{
-  background-color:#00796B;
-  border-radius: 40%;
-  border-color: #00796B; 
-   width: 40%;
+  font-family: var(--font-primary);
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 14px 40px;
+  border-radius: 50px;
+  transition: 0.3s;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.08);
+  border: 2px solid rgba(255, 255, 255, 0.1);
+ }
+ .button:hover {
+  border-color: rgba(255, 255, 255, 0.5);
  
  }
+.buy-button{
+  font-family: var(--font-primary);
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 7px 20px;
+  border-radius: 30px;
+  transition: 0.3s;
+  color: #00796B;
+  background: #fff;
+  box-shadow: 0 0 15px #fff;
+  border: 2px solid rgba(255, 255, 255, 0.1);
 
+}
+.buy-button:hover{
+  background-color: #00796B;
+  border-color: #00796B;
+  color:#fff
+}
  .form{
   padding: 5%;
  }
  hr {
   margin: 50px auto;
-border:solid #00796B 4px ;
+border:solid #008374 4px ;
 border-bottom: none;
 width: 4%;
 }
@@ -35,7 +96,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h2 {
-  font-size: 3 rem;
+  font-size: 2 rem;
   line-height: 1.5;
 }
 .align-items-left{
@@ -44,7 +105,7 @@ h2 {
 /* headings */
 .big-heading {
   font-family:  var(--font-primary);
-  font-size: 2.0 rem;
+  font-size: 1.0 rem;
   font-weight: 600;
 }
 
@@ -67,14 +128,14 @@ h2 {
 
 /* navigation */
 .navbar{
-
-
+ 
 background-color: #008374;
 }
 .navbar-brand {
   font-family:  var(--font-primary);
   font-size: 2.5rem;
   font-weight: bold;
+  padding: 1%;
 }
 
 
@@ -109,10 +170,19 @@ background-color: #008374;
 
 /* <!-- Call to Action --> */
 
-.in {
+.icon-team {
   margin: 20px 10px;
+  padding: 1%;
+  border-width: 10%;
+  border-radius: 100%;
+  background-color: #fff;
 }
+.icon-team:hover{
 
+  background-color: #00796B;
+  border-color: #00796B;
+  color:#fff
+}
 .copyright {
-  color: #8f8f8f;
+  color: #00796B;
 }
