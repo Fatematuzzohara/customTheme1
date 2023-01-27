@@ -1,5 +1,5 @@
 body{
-  "Montserrat", sans-serif;
+  font-family: "Montserrat", sans-serif;
   text-align: center;
 }
 
@@ -28,6 +28,28 @@ background-color: #00796B;
  padding: 5px;
   display: inline-block;
 
+}
+.icon-serv{
+  margin:  30px;
+  padding: 20px;
+  border-radius: 99%;
+  background-color: #00796B;
+  color:#fff;
+  display: inline-block;
+
+}
+
+.icon-serv:hover{
+  background-color: #00796B;
+
+}
+.grey-section{
+  background-color:#f6f6f6;
+  box-shadow: black;
+  padding: 20px;
+  padding-bottom: 30px;
+  padding-top: 20px;
+  margin: 20px;
 }
 .icon-pricing{
   z-index: 2;
@@ -63,7 +85,9 @@ background-color: #00796B;
 }
 
  .button{
-  font-family: var(--font-primary);
+  padding: 14px 40px;
+  margin: 5px;
+  font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-size: 15px;
   letter-spacing: 1px;
@@ -95,7 +119,7 @@ background-color: #00796B;
 
  .button-msg{
 
-  font-family: var(--font-primary);
+  font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-size: 15px;
   letter-spacing: 1px;
@@ -125,6 +149,9 @@ background-color: #00796B;
 color:#00796B;
 
 }
+.white{
+  color: #fff;
+}
 .buy-button:hover{
   background-color: #00796B;
   border-color: #00796B;
@@ -148,9 +175,9 @@ color:#00796B;
  }
  hr {
   margin: 50px auto;
-border:solid #008374 4px ;
+border:solid #008274 4px ;
 border-bottom: none;
-width: 4%;
+width: 80px;
 }
 h1, h2, h3, h4, h5, h6 {
   font-family:  "Montserrat", sans-serif;
@@ -162,6 +189,12 @@ h5{
 
 .shadow{
   box-shadow: grey;
+  border-radius: 10px;
+
+}
+.shadow1{
+
+  background-color: #fff;
   border-radius: 10px;
 
 }
@@ -199,6 +232,10 @@ h2 {
     box-shadow: grey;
 
 }
+.color-nav{
+  background-color: #008374;
+  color: #00796B;
+}
 .num{
   color: #00796B;
   width: 10px;
@@ -214,11 +251,60 @@ background-color: #008374;
   font-family: "Montserrat", sans-serif;
   font-size: 2.5rem;
   font-weight: bold;
-  padding: 1%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 10px;
 }
 
+.icon-box{
+  padding: 60px 30px;
+  position: relative;
+  overflow: hidden;
+  background: #008d7d;
+  box-shadow: 0 0 29px 0 rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease-in-out;
+  border-radius: 8px;
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 24px;
+  color: #fff;
+  transition: 0.3s;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  padding-top: 10px;
+  display: inline-block;
+  transition: all 0.3s ease-in-out;
+  font-size: 48px;
+  line-height: 1;
+  color: rgba(255, 255, 255, 0.6);
 
+  
+}
 
+.icon-boxes{
+  margin-top: 80px;
+  padding-bottom: 20px;
+
+}
+.icon-box:hover {
+  background: #009786;
+}
+
+@media (min-width: 1200px) {
+  .icon-boxes:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: calc(50% + 20px);
+
+  }
+}
 .nav-link {
   font-size: 1.2 rem;
   position: relative;
@@ -263,6 +349,22 @@ border-style: solid;
   background-color: #fff;
   color:#008374;
 }
+
+.icon-footer {
+  margin: 40px 20px;
+  padding: 5px;
+  border-color: grey;
+  border-style: solid;
+  border-width: 5%;
+  border-radius: 100%;
+color: grey;
+}
+.icon-footer:hover{
+border-color: #fff;
+border-style: solid;
+  background-color: #008374;
+  color:#fff;
+}
 .icon-pricing{
 border-radius: 100%;
   border-style: solid;
@@ -272,6 +374,30 @@ color: #fff;
 
 
 }
+a{
+  color: #d9d9d9;
+}
+a:hover{
+  color: #fff;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.footer-links {
+
+color: #f6f6f6;
+}
+
+
+.stretched-link{
+  color: #fff;
+}
+.stretched-link:hover{
+  color: #00796B;
+}
 .copyright {
   color: #00796B;
 }
@@ -280,5 +406,9 @@ color: #fff;
 
 }
 .scroll{
-  margin-left: 95%;
+  margin-left: 98%;
+}
+.footer{
+  background-color: #00796B;
+  padding: 0px;
 }
