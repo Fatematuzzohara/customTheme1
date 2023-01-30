@@ -8,7 +8,15 @@ body{
   border-radius: 10%;
   height: 400px;
 }
+.img-fluid{
+  border-radius: 5%;
 
+}
+.img-author {
+  width: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
 .li{
   margin: 10px;
 }
@@ -42,6 +50,10 @@ background-color: #00796B;
 .icon-serv:hover{
   background-color: #00796B;
 
+}
+.icon-testomonial{
+  background-color: #fff;
+  color: yellow;
 }
 .grey-section{
   background-color:#f6f6f6;
@@ -186,17 +198,16 @@ h5{
   color: #00796B;
 
 }
-
-.shadow{
-  box-shadow: grey;
-  border-radius: 10px;
-
+.testimonial-p{
+  color: #000;
 }
-.shadow1{
-
-  background-color: #fff;
-  border-radius: 10px;
-
+h4{
+  color:#000;
+}
+.scroll-top.active {
+  visibility: visible;
+  opacity: 1;
+  bottom: 15px;
 }
 .accordion-css{
   color: #00796B;
@@ -234,8 +245,18 @@ h2 {
 }
 .color-nav{
   background-color: #008374;
-  color: #00796B;
+
 }
+
+
+
+
+
+.call-to-action{
+  background-image: url("https://img.freepik.com/free-photo/abstract-smoke-wallpaper-background-desktop_53876-128257.jpg?w=996&t=st=1675061485~exp=1675062085~hmac=21ccd3df55397f4a6cf9601d9251808af7f91b1d4c04090acca4d39a159caa64");
+  color:#fff;
+}
+
 .num{
   color: #00796B;
   width: 10px;
@@ -244,16 +265,15 @@ h2 {
 
 /* navigation */
 .navbar{
- 
+ display: inline;
 background-color: #008374;
 }
 .navbar-brand {
   font-family: "Montserrat", sans-serif;
   font-size: 2.5rem;
   font-weight: bold;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  margin-left: 10px;
+  display: inline;
+  margin-right: 10000px;
 }
 
 .icon-box{
@@ -306,9 +326,17 @@ background-color: #008374;
   }
 }
 .nav-link {
+  list-style: none;
   font-size: 1.2 rem;
   position: relative;
   font-family:"Montserrat", sans-serif;
+}
+@media (min-width: 1024px) {
+  .mobile-nav-show {
+    color: rgba(255, 255, 255, 0.6);
+    background-position: right;
+    margin-right: 100px;
+}
 }
 
 
@@ -384,6 +412,7 @@ a:hover{
 .footer-links ul {
   list-style: none;
   padding: 0;
+  display: inline;
   margin: 0;
 }
 .footer-links {
@@ -393,13 +422,19 @@ color: #f6f6f6;
 
 
 .stretched-link{
-  color: #fff;
+  color:#00796B ;
 }
 .stretched-link:hover{
   color: #00796B;
 }
+.stretched-link1{
+  color:#fff ;
+}
+.stretched-link1:hover{
+  color:#fff;
+}
 .copyright {
-  color: #00796B;
+  color: #fff;
 }
 :root {
   scroll-behavior: smooth;
@@ -407,6 +442,7 @@ color: #f6f6f6;
 }
 .scroll{
   margin-left: 98%;
+  visibility: hidden;
 }
 .footer{
   background-color: #00796B;
