@@ -116,6 +116,13 @@ background-color: #00796B;
   border-color: rgba(255, 255, 255, 0.5);
  
  }
+ .count{
+  padding: 10px;
+color:#008274;
+font-weight: 10;
+  margin: 5px 0 0 0;
+  font-family: "Raleway", sans-serif;
+  font-size: 50px;}
  .location{
   background-color: #008374;
   color:#fff;
@@ -253,7 +260,7 @@ h2 {
 
 
 .call-to-action{
-  background-image: url("https://img.freepik.com/free-photo/abstract-smoke-wallpaper-background-desktop_53876-128257.jpg?w=996&t=st=1675061485~exp=1675062085~hmac=21ccd3df55397f4a6cf9601d9251808af7f91b1d4c04090acca4d39a159caa64");
+  background-image: url("../assets/img/cta-bg.jpg");
   color:#fff;
 }
 
@@ -404,11 +411,49 @@ color: #fff;
 }
 a{
   color: #d9d9d9;
+  text-decoration:none;
 }
 a:hover{
   color: #fff;
+  text-decoration:none;
 }
+#contact  h4{
+  color: #fff;
+}
+#testimonials  h4{
+  color: #fff;
+}
+.navbar-nav a{
+  font-size: 1rem;
+  font-weight: bold;
+  padding-left: 5px;
+  padding-right: 5px;
+  display: inline-block;
+  text-decoration:none;
+  color: #d9d9d9;
+}
+.navbar-nav a:hover{
+  color: #fff;
+}
+.nav-item{
+  font-size: 1rem;
+  font-weight: bold;
+  padding-left: 5px;
+  padding-right: 5px;
+  display: inline-block;
+ 
+  
+}
+.breadcrumb-item a{
+  color: #00796B;
 
+}
+.footer h4 {
+  color:white
+}
+.footer p {
+  color:white
+}
 .footer-links ul {
   list-style: none;
   padding: 0;
