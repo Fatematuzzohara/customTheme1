@@ -37,6 +37,23 @@ background-color: #00796B;
   display: inline-block;
 
 }
+.icon-scroll{
+  position: fixed;
+  right: 15px;
+  bottom: 15px;
+  z-index: 996;
+  padding-top: 10px;
+  background: orangered;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  transition: all 0.4s;
+  color:#fff;
+   display: inline-block;
+ 
+ }
+ 
+
 .icon-serv{
   margin:  30px;
   padding: 20px;
@@ -211,6 +228,7 @@ h5{
 h4{
   color:#000;
 }
+
 .scroll-top.active {
   visibility: visible;
   opacity: 1;
@@ -256,13 +274,45 @@ h2 {
 }
 
 
+/* testimonials */
+.testimonial-img {
+  width: 90px;
+  border-radius: 50%;
+  margin: 30px 180px 0 0;
+  position: relative;
+  border: 6px solid #fff;
+}
+#testimonials h2 {
+  font-size: 28px;
+  font-size: 2 rem;
+  line-height: 1.5;
+  color: #111;
+}
+.quote-icon-left{
+  color: #ffe7a0;
+  font-size: 26px;
+}
+.quote-icon-right{
+  color: #ffe7a0;
+  font-size: 26px;
+}
+.swiper-pagination-bullet{
+  border: 1px solid #ffc107;
+  font-size: 26px;
 
+}
+.swiper-pagination-bullet{
+background-color:  #ffc107;}
 
 
 .call-to-action{
   background-image: url("../assets/img/cta-bg.jpg");
+border-radius: 10px;
+margin-top: 50px;
+max-width: 1320px;
   color:#fff;
 }
+
 
 .num{
   color: #00796B;
@@ -444,6 +494,7 @@ a:hover{
  
   
 }
+
 .breadcrumb-item a{
   color: #00796B;
 
