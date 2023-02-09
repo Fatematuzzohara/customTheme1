@@ -133,17 +133,25 @@ background-color: #00796B;
   border-color: rgba(255, 255, 255, 0.5);
  
  }
- .count{
-  padding: 10px;
-color:#008274;
-font-weight: 10;
-  margin: 5px 0 0 0;
-  font-family: "Raleway", sans-serif;
-  font-size: 50px;}
+
  .location{
   background-color: #008374;
   color:#fff;
  }
+ .stats-counter .stats-item .purecounter {
+  min-width: 90px;
+font-size: 39px;
+font-weight:900;
+border-bottom: 1px solid #e4e4e4;
+  color:#00796B;
+  padding-right: 15px;
+}
+.stats-item {
+  min-width: 90px;
+border-bottom: 1px solid #e4e4e4;
+ 
+
+}
  .location-div{
   width: 100%;
   background-color: #009282;
@@ -332,7 +340,9 @@ background-color: #008374;
   display: inline;
   margin-right: 150px;
 }
-
+.navbar a{
+  list-style: none;
+}
 .icon-box{
   padding: 60px 30px;
   position: relative;
